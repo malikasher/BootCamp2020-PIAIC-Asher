@@ -32,6 +32,6 @@ jobs:
     - name: install surge
       run: npm install --global surge
     - name:  deploying using surge
-      run: surge ./ asher.surge.sh --token${{secrets.SURGE_TOKEN}}
+      run: surge ./ learnonline.surge.sh --token${{secrets.SURGE_TOKEN}}
   
  
